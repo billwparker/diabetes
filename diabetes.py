@@ -36,7 +36,7 @@ with cols4:
   
 with cols1:
   model_type = st.selectbox(
-        "How classification model would you like to use?",
+        "Which classification model would you like to use?",
         ("Random Forest", "Gradient Boost"),
     )  
   
