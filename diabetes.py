@@ -5,7 +5,7 @@ import pandas as pd
 
 st.set_page_config(layout="wide")
 
-st.title('Diabetes Prediction Application (Pima Indians Diabetes)')
+st.title('Diabetes Prediction Application')
 
 st.divider()
 
