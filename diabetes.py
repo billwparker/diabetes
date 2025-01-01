@@ -31,9 +31,11 @@ with cols3:
 with cols4:
   
   age = st.number_input("Age", min_value=0, max_value=100, value=25, step=1)
-  
-  
+    
 with cols1:
+  
+  st.write("")
+
   model_type = st.selectbox(
         "Which classification model would you like to use?",
         ("Random Forest", "Gradient Boost", "Neural Network (PyTorch)", "Neural Network (TensorFlow)"),
