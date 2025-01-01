@@ -103,6 +103,7 @@ Glucose: Plasma glucose concentration in a 2 hours in an oral glucose tolerance 
 Skin thickness: Triceps skin fold thickness (mm)  
 BMI: Body mass index (weight in kg/(height in m)^2)  
 Blood pressure: Diastolic blood pressure (mm Hg)  
+Insuline: 2-Hour serum insulin (mu U/ml)
 """
 
 st.write(variables_note)
