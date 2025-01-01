@@ -4,9 +4,11 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 
 https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 
-Models: 
-Random Forest
-Gradient Boost
+Models: <br>
+Random Forest<br>
+Gradient Boost<br>
+Neural Network (PyTorch)<br>
+Neural Network (TensorFlow)<br>
 
 Streamlit application link:
 https://diabetes-yxh2vtj8yappxc55b57rdvh.streamlit.app/
