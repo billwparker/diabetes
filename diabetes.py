@@ -94,4 +94,17 @@ if st.button('Predict Diabetes'):
         st.write('Diabetes Prediction: Positive')
     else:
         st.write('Diabetes Prediction: Negative')
+        
+st.divider()
+variables_note = """
+Glucose: Plasma glucose concentration in a 2 hours in an oral glucose tolerance test  
+Skin thickness: Triceps skin fold thickness (mm)  
+BMI: Body mass index (weight in kg/(height in m)^2)  
+Blood pressure: Diastolic blood pressure (mm Hg)  
+"""
 
+st.write(variables_note)
+
+st.markdown("<sub>* Source: [data](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) \
+            from the National Institute of Diabetes and Digestive and Kidney Diseases. \
+            All patients in the trained data are females at least 21 years old of Pima Indian heritage.</sub>", unsafe_allow_html=True)
